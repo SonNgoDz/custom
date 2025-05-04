@@ -4,14 +4,12 @@
       <AppSidebar />
     </div>
     <div class="flex-1 flex flex-col h-full overflow-auto bg-surface-white">
-      <AppHeader />
       <slot />
     </div>
   </div>
 </template>
 <script setup>
 import AppSidebar from '@/components/Layouts/AppSidebar.vue'
-import AppHeader from '@/components/Layouts/AppHeader.vue'
 import { ref } from 'vue'
 
 const showSidebar = ref(false)
