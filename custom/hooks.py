@@ -1,12 +1,9 @@
-# app_name = "crm"
-# app_title = "Frappe CRM"
-# app_publisher = "Frappe Technologies Pvt. Ltd."
-# app_description = "Kick-ass Open Source CRM"
-# app_email = "shariq@frappe.io"
-# app_license = "AGPLv3"
-# app_icon_url = "/assets/crm/images/logo.svg"
-# app_icon_title = "CRM"
-# app_icon_route = "/crm"
+app_name = "custom"
+app_title = "Custom App"
+app_publisher = "Your Company"
+app_description = "Custom Application"
+app_email = "your@email.com"
+app_license = "MIT"
 
 # # Apps
 # # ------------------
@@ -25,13 +22,13 @@
 # # Includes in <head>
 # # ------------------
 
-# # include js, css files in header of desk.html
-# # app_include_css = "/assets/crm/css/crm.css"
-# # app_include_js = "/assets/crm/js/crm.js"
+# include js, css files in header of desk.html
+# app_include_css = "/assets/custom/css/custom.css"
+# app_include_js = "/assets/custom/js/custom.js"
 
-# # include js, css files in header of web template
-# # web_include_css = "/assets/crm/css/crm.css"
-# # web_include_js = "/assets/crm/js/crm.js"
+# include js, css files in header of web template
+# web_include_css = "/assets/custom/css/custom.css"
+# web_include_js = "/assets/custom/js/custom.js"
 
 # # include custom scss in every website theme (without file extension ".scss")
 # # website_theme_scss = "crm/public/scss/website"
@@ -82,14 +79,14 @@
 # # Installation
 # # ------------
 
-# before_install = "crm.install.before_install"
-# after_install = "crm.install.after_install"
+before_install = "custom.install.before_install"
+after_install = "custom.install.after_install"
 
-# # Uninstallation
-# # ------------
+# Uninstallation
+# ------------
 
-# before_uninstall = "crm.uninstall.before_uninstall"
-# # after_uninstall = "crm.uninstall.after_uninstall"
+before_uninstall = "custom.uninstall.before_uninstall"
+after_uninstall = "custom.uninstall.after_uninstall"
 
 # # Integration Setup
 # # ------------------

@@ -353,3 +353,18 @@
 # 		crm_settings.append("dropdown_items", item)
 
 # 	crm_settings.save()
+
+
+import frappe
+
+def before_install():
+    pass
+
+def after_install():
+    pass
+
+def before_uninstall():
+    pass
+
+def after_uninstall():
+    pass
