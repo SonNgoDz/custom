@@ -1,4 +1,3 @@
-
-# __version__ = "2.0.0-dev"
-# __title__ = "Frappe CRM"
+__version__ = "1.0.0"
+__title__ = "Custom App"
 
