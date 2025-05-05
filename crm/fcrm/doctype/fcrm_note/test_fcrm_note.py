@@ -1,9 +1,9 @@
-# Copyright (c) 2023, Frappe Technologies Pvt. Ltd. and Contributors
-# See license.txt
+# # Copyright (c) 2023, Frappe Technologies Pvt. Ltd. and Contributors
+# # See license.txt
 
-# import frappe
-from frappe.tests import UnitTestCase
+# # import frappe
+# from frappe.tests import UnitTestCase
 
 
-class TestFCRMNote(UnitTestCase):
-	pass
+# class TestFCRMNote(UnitTestCase):
+# 	pass

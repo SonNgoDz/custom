@@ -1,9 +1,9 @@
-# Copyright (c) 2023, Frappe Technologies Pvt. Ltd. and Contributors
-# See license.txt
+# # Copyright (c) 2023, Frappe Technologies Pvt. Ltd. and Contributors
+# # See license.txt
 
-# import frappe
-from frappe.tests import UnitTestCase
+# # import frappe
+# from frappe.tests import UnitTestCase
 
 
-class TestCRMLeadStatus(UnitTestCase):
-	pass
+# class TestCRMLeadStatus(UnitTestCase):
+# 	pass
