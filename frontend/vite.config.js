@@ -13,7 +13,7 @@ export default defineConfig({
       lucideIcons: true,
       jinjaBootData: true,
       buildConfig: {
-        indexHtmlPath: '../crm/www/crm.html',
+        indexHtmlPath: '../custom/www/custom.html',
         emptyOutDir: true,
         sourcemap: true,
       },
@@ -27,32 +27,31 @@ export default defineConfig({
       },
       manifest: {
         display: 'standalone',
-        name: 'Frappe CRM',
-        short_name: 'Frappe CRM',
-        start_url: '/crm',
-        description:
-          'Modern & 100% Open-source CRM tool to supercharge your sales operations',
+        name: 'Custom App',
+        short_name: 'Custom App',
+        start_url: '/custom',
+        description: 'Custom App for ERPNext',
         icons: [
           {
-            src: '/assets/crm/manifest/manifest-icon-192.maskable.png',
+            src: '/assets/custom/manifest/manifest-icon-192.maskable.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'any',
           },
           {
-            src: '/assets/crm/manifest/manifest-icon-192.maskable.png',
+            src: '/assets/custom/manifest/manifest-icon-192.maskable.png',
             sizes: '192x192',
             type: 'image/png',
             purpose: 'maskable',
           },
           {
-            src: '/assets/crm/manifest/manifest-icon-512.maskable.png',
+            src: '/assets/custom/manifest/manifest-icon-512.maskable.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any',
           },
           {
-            src: '/assets/crm/manifest/manifest-icon-512.maskable.png',
+            src: '/assets/custom/manifest/manifest-icon-512.maskable.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
